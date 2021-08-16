@@ -5,6 +5,10 @@ h1 {
     font-weight: 900;
 }
 
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #title {
     background-color: #ff4c68;
 }
