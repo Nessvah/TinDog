@@ -4,3 +4,7 @@ h1 {
     line-height: 1.5;  
     font-weight: 900;
 }
+
+#title {
+    background-color: #ff4c68;
+}
