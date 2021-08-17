@@ -52,3 +52,34 @@ h1 {
     width: 60%;
     transform: rotate(25deg);
 }
+
+/*Features*/
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.fas {
+    color: #ef8172;
+}
+
+.fas:hover {
+    color: #ff4c68;
+}
+
+.icon {
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 5%;
+}
+
