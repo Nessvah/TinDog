@@ -126,3 +126,21 @@ p {
     width: 15%;
     margin: 30px 30px 50px;
 }
+
+/*Pricing Card*/
+
+#pricing {
+    text-align: center;
+}
+
+.container-pricing {
+    padding: 7% 15%;
+}
+
+.column-pricing {
+    padding: 3% 2%;
+}
+
+.button {
+    margin-top: 40px;
+}
