@@ -144,3 +144,17 @@ p {
 .button {
     margin-top: 40px;
 }
+
+/*CTA*/
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+}
