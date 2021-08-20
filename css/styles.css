@@ -81,19 +81,15 @@ p {
     padding: 5%;
 }
 
-
-.fas {
-    color: #ef8172;
-}
-
-.fas:hover {
-    color: #ff4c68;
-}
-
 .icon {
     text-align: center;
     vertical-align: bottom;
     margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
 }
 
 /*Testimonials*/
@@ -157,4 +153,14 @@ p {
     font-weight: 900;
     font-size: 3rem;
     color: #fff;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
 }
