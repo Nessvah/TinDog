@@ -1,17 +1,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    text-align: center;
 }   
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-}
-
-
-h3 {
-
-    font-size: 1.5rem;
 }
 
 p {
@@ -21,6 +16,8 @@ p {
 /*Headings*/
 
 .bigHeading {
+    font-family: 'Montserrat'. sans-serif;
+    font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
 }
@@ -30,15 +27,10 @@ p {
     line-height: 1.5;
 }
 
-/*Tittle Section*/
-
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
+/*Containers */
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 7% 15%;
 }
 
 /*Navigation Bar*/
@@ -69,6 +61,18 @@ p {
     margin: 5% 3% 5% 0%;
 }
 
+/*Tittle Section*/
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 /*Tittle Images*/
 
 .title-image {
@@ -80,7 +84,6 @@ p {
 /*Features Section*/
 
 #features {
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
 }
@@ -88,8 +91,8 @@ p {
 .feature-title {
     font-size: 1.5rem;
 }
+
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -107,7 +110,6 @@ p {
 /*Testimonials*/
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 
@@ -124,14 +126,10 @@ p {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
 /*Press*/
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -141,15 +139,6 @@ p {
 }
 
 /*Pricing Card*/
-
-#pricing {
-    text-align: center;
-}
-
-
-.container-pricing {
-    padding: 7% 15%;
-}
 
 .column-pricing {
     padding: 3% 2%;
@@ -163,21 +152,10 @@ p {
 
 #cta {
     background-color: #ff4c68;
-    text-align: center;
-}
-
-.cta-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
     color: #fff;
 }
 
 /* Footer */
-
-#footer {
-    text-align: center;
-}
 
 .social-icon {
     margin: 20px 10px;
