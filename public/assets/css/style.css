@@ -1,97 +1,135 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* Simple Reset */
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  font-size: 1.6rem;
+  line-height: 1.5;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+ol,
+ul {
+  list-style: none;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  overflow-wrap: break-word;
 }
 
-.card {
-  padding: 2em;
+/* NAVBAR STYLES */
+
+.flex-nav {
+  display: flex;
+  padding: 2.4rem 1.8rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.read-the-docs {
-  color: #888;
+.paw-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.4rem;
+  height: 4.2rem;
+  border-radius: 3rem;
+  background: linear-gradient(270deg, #fa695a 0%, #f83375 100%);
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+/* MAIN SECTION -- USER PHOTO */
+.photo__fill {
+  position: relative;
+  height: 70vh;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.photo__fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.user--info,
+.user--status {
+  position: absolute;
+  left: 2rem;
+  color: #fff;
+}
+
+.user--info {
+  bottom: 4rem;
+  letter-spacing: 1px;
+}
+
+.user--status {
+  bottom: 2rem;
+  color: #b7b7b7;
+}
+/* SECTION -- BTN ACTIONS */
+
+.btn--actions {
+  margin-top: auto;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  width: 8.2rem;
+  height: 8.2rem;
+  border-radius: 50%;
+  box-shadow: 0px 10px 20px #e9e9ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--nope:hover {
+  background-color: #ffe7ef;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.btn--like:hover {
+  background-color: #dbfff4;
+  cursor: pointer;
 }

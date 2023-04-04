@@ -12,11 +12,61 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TinDog</title>
   </head>
   <body>
+    <nav class="flex-nav">
+      <a href="#">
+        <img src="/assets/img/Vector.png" alt="" width="35px" height="35px" />
+      </a>
+
+      <a href="#" class="paw-btn">
+        <img src="/assets/img/paw-icon.png" alt="" width="20px" height="auto"
+      /></a>
+
+      <a href="#">
+        <img
+          src="/assets/img/chat-icon.png"
+          alt=""
+          width="35px"
+          height="35px"
+        />
+      </a>
+    </nav>
+
+    <main>
+      <section class="photo__fill" id="userImg">
+        <img
+          class="user--photo"
+          src="/assets/img/dog10.webp"
+          alt="User profile photo"
+        />
+        <h2 class="user--info">Teddy, 30</h2>
+        <p class="user--status">How you doing?</p>
+      </section>
+    </main>
+
+    <section id="btnActions" class="btn--actions">
+      <button class="btn btn--nope" id="btnNope">
+        <img
+          src="/assets/img/nope-icon.png"
+          width="26px"
+          height="auto"
+          alt=""
+        />
+      </button>
+      <button class="btn btn--like" id="btnLike">
+        <img
+          src="/assets/img/like-icon.png"
+          width="30px"
+          height="auto"
+          alt=""
+        />
+      </button>
+    </section>
+
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
   </body>
