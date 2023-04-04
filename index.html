@@ -16,40 +16,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TinDog</title>
   </head>
-  <body>
+  <body id="body">
     <nav class="flex-nav">
-      <a href="#">
-        <img src="/assets/img/Vector.png" alt="" width="35px" height="35px" />
-      </a>
+      <div class="nav--container">
+        <a href="#">
+          <img src="/assets/img/Vector.png" alt="" width="35px" height="35px" />
+        </a>
 
-      <a href="#" class="paw-btn">
-        <img src="/assets/img/paw-icon.png" alt="" width="20px" height="auto"
-      /></a>
+        <a href="#" class="paw-btn">
+          <img src="/assets/img/paw-icon.png" alt="" width="20px" height="auto"
+        /></a>
 
-      <a href="#">
-        <img
-          src="/assets/img/chat-icon.png"
-          alt=""
-          width="35px"
-          height="35px"
-        />
-      </a>
+        <a href="#">
+          <img
+            src="/assets/img/chat-icon.png"
+            alt=""
+            width="35px"
+            height="35px"
+          />
+        </a>
+      </div>
     </nav>
 
-    <main>
-      <section class="photo__fill" id="userImg">
-        <img
-          class="user--photo"
-          src="/assets/img/dog10.webp"
-          alt="User profile photo"
-        />
-        <h2 class="user--info">Teddy, 30</h2>
-        <p class="user--status">How you doing?</p>
-      </section>
+    <main id="main">
+      <section class="photo__fill" id="user"></section>
+      <div id="badge"></div>
     </main>
 
     <section id="btnActions" class="btn--actions">
-      <button class="btn btn--nope" id="btnNope">
+      <button class="btn btn--nope" data-badge="nope" id="btns">
         <img
           src="/assets/img/nope-icon.png"
           width="26px"
@@ -57,7 +52,7 @@
           alt=""
         />
       </button>
-      <button class="btn btn--like" id="btnLike">
+      <button class="btn btn--like" data-badge="like">
         <img
           src="/assets/img/like-icon.png"
           width="30px"
@@ -67,8 +62,6 @@
       </button>
     </section>
 
-    <img class="badge hidden" src="/assets/img/like-image.png" alt="" />
-    <img class="badge hidden" src="/assets/img/nope-image.png" alt="" />
     <script type="module" src="/main.js"></script>
   </body>
 </html>
