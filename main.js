@@ -82,7 +82,6 @@ function cleanBadge() {
 function noMoreUsers() {
   isWaiting = true;
   document.getElementById("btnActions").style.display = "none";
-  document.getElementById("main").style.border = "none";
 
   setTimeout(() => {
     document.getElementById("user").innerHTML = `<div class="no-users">
