@@ -133,3 +133,19 @@ h6 {
   background-color: #dbfff4;
   cursor: pointer;
 }
+
+/* BADGES STYLES */
+
+.badge {
+  width: 16rem;
+  height: auto;
+  position: absolute;
+  top: 16vh;
+  left: 5vw;
+  z-index: 55;
+  transform: rotate(-30deg);
+}
+
+.hidden {
+  display: none;
+}
