@@ -24,7 +24,8 @@ class User {
           alt="User profile photo"
         />
         <h2 class="user--info">${name}, ${age}</h2>
-        <p class="user--status">${status}</p>`;
+        <p class="user--status">${status}</p>
+       `;
   }
 }
 
