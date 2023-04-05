@@ -109,7 +109,7 @@ $ npm run dev
 
 ## License
 
-Distributed under the License. See [LICENSE]() for more information.
+Distributed under the License. See [LICENSE](/LICENSE) for more information.
 
 <hr/>
 
