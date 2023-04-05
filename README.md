@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/Nessvah/TinDog/image?font=Bitter&issues=1&language=1&name=1&owner=1&pattern=Overlapping%20Hexagons&pulls=1&theme=Auto" alt="TinDog" width="640" height="320" /></p>
 
-<p id="description">Capstone Project, for the Meta Front-End specialization. In this project, the goal was to solve a real-world problem where the owner of the Little Lemon Restaurant has a website for their business but their clients would love to be able to reserve a table online.
+<p id="description">Simple app for LIKE or NOPE some user profile picture and pass to the next one. 
 </p>
 
 <p align="center"><img src="https://img.shields.io/github/issues/nessvah/little_lemon_restaurant" alt="shields">&nbsp;<img src="https://img.shields.io/github/issues-pr/nessvah/tinDog" alt="shields">&nbsp;<img src="https://img.shields.io/github/license/nessvah/tinDog" alt="shields">
