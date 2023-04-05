@@ -1,5 +1,5 @@
-import User from "./User";
-import userData from "./userData";
+import User from "./js/User";
+import userData from "./js/userData";
 
 // variable to know when to hold the img swap
 let isWaiting = false;
