@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/Nessvah/TinDog/image?font=Bitter&issues=1&language=1&name=1&owner=1&pattern=Overlapping%20Hexagons&pulls=1&theme=Auto" alt="TinDog" width="640" height="320" /></p>
 
-<p id="description">Simple app for LIKE or NOPE some user profile picture and pass to the next one.
+<p id="description">Tinder is a really popular app between people who wants to look for someone to ... date?! Well, I think dogs deserve an app like that as well, or at least, something similar. 🐕🔥🐩
 </p>
 
 <p align="center"><img src="https://img.shields.io/github/issues/nessvah/little_lemon_restaurant" alt="shields">&nbsp;<img src="https://img.shields.io/github/issues-pr/nessvah/tinDog" alt="shields">&nbsp;<img src="https://img.shields.io/github/license/nessvah/tinDog" alt="shields">
@@ -39,8 +39,10 @@
 
 ## About The Project
 
+Tinder is a really popular app between people who wants to look for someone to ... date?! Well, I think dogs deserve an app like that as well, or at least, something similar. 🐕🔥🐩
+
 A simple project to refresh my skills with JavaScript ES6 and classes.
-The goal was to as well follow the design file provided.
+Another goal was to follow the design file provided as well.
 
 ### Screenshots
 
