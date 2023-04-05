@@ -24,7 +24,7 @@
 - [About The Project](#about-the-project)
   - [Screenshots](#screenshots)
     - [Main page](#main-page)
-    - [Booking page](#booking-page)
+    - [Feature - LIKE / NOPE](#feature---like--nope)
   - [Requirements](#requirements)
   - [Optimizations/Problems to solve:](#optimizationsproblems-to-solve)
 - [Built With](#built-with)
@@ -39,47 +39,38 @@
 ## About The Project
 
 A simple project to refresh my skills with JavaScript ES6 and classes.
-
-The brand style guide was provided and with it I was able to do the wireframe, prototype and create some components using Figma.
-[File](https://www.figma.com/files/recent?fuid=1136340015527445765)
+The goal was to as well follow the design file provided.
 
 ### Screenshots
 
 #### Main page
 
-![Main page](src/images/little_lemon_web2.png)
+![Main page](/public/assets/img/screenshot1.png)
 
-#### Booking page
+#### Feature - LIKE / NOPE
 
-![Booking page](src/images/little_lemon_web1.png)
+![NOPE](/public/assets/img/screenshot2.png)
+
+![LIKE](/public/assets/img/screenshot3.png)
 
 ### Requirements
 
-- Follow the brand style guide provided and do the wireframe + prototype (Figma file)
+- Follow the Design guide provided
 - Make use of semantic tags
-- Use Open Graph Protocol
-- Implement some of the things learned in React (hooks, useEffect, useState, controled components,...)
+- Make use of some of ES6 syntax and make use of at least one Class
 - Using git version control during the development of the project
-- Implement unit tests using Jest
 
 ### Optimizations/Problems to solve:
 
-- [ ] make it responsive for all screens
-- [ ] show alert when submiting form
-- [ ] better unit tests
-- [ ] better the performance/speed of the page on page load
-- [ ] images optimizations
-- [x] switch the map image for a real map (leaftlet e.g.)
+- [ ] make the text in front of the image stand out more
+- [ ] when resized up the border on some images are hidden by the container
 
 <hr/>
 
 ## Built With
 
 - HTML & CSS
-- JavaScript - React
-- Chakra UI
-- Formik and Yup (form validation)
-- Jest
+- JavaScript
 
 <hr/>
 
@@ -87,15 +78,16 @@ The brand style guide was provided and with it I was able to do the wireframe, p
 
 ### Prerequisites
 
-You need to have npm installed.
+You need to have Node.js and npm installed.
 
-- npm
+- [npm](https://www.npmjs.com/)
+- [Node.js](https://nodejs.org/en)
 
 Quick start:
 
 ```sh
 $ npm install
-$ npm start
+$ npm run dev
 ```
 
 ### Creating A Pull Request
