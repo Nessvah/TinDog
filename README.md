@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/Nessvah/TinDog/image?font=Bitter&issues=1&language=1&name=1&owner=1&pattern=Overlapping%20Hexagons&pulls=1&theme=Auto" alt="TinDog" width="640" height="320" /></p>
 
-<p id="description">Simple app for LIKE or NOPE some user profile picture and pass to the next one. 
+<p id="description">Simple app for LIKE or NOPE some user profile picture and pass to the next one.
 </p>
 
 <p align="center"><img src="https://img.shields.io/github/issues/nessvah/little_lemon_restaurant" alt="shields">&nbsp;<img src="https://img.shields.io/github/issues-pr/nessvah/tinDog" alt="shields">&nbsp;<img src="https://img.shields.io/github/license/nessvah/tinDog" alt="shields">
@@ -26,6 +26,7 @@
     - [Main page](#main-page)
     - [Feature - LIKE / NOPE](#feature---like--nope)
   - [Requirements](#requirements)
+    - [Design guide](#design-guide)
   - [Optimizations/Problems to solve:](#optimizationsproblems-to-solve)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
@@ -59,6 +60,10 @@ The goal was to as well follow the design file provided.
 - Make use of semantic tags
 - Make use of some of ES6 syntax and make use of at least one Class
 - Using git version control during the development of the project
+
+#### Design guide
+
+![Figma Design](/public/assets/img/figmaFile.png)
 
 ### Optimizations/Problems to solve:
 
